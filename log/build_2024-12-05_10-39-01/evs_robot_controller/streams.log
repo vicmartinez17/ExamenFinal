@@ -1,0 +1,37 @@
+[0.919s] Invoking command in '/home/robousr/ROS2Dev/ExaFin_ws/src/evs_robot_controller': PYTHONPATH=/home/robousr/ROS2Dev/ExaFin_ws/build/evs_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/ROS2Dev/ExaFin_ws/install/evs_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/evs_robot_controller build --build-base /home/robousr/ROS2Dev/ExaFin_ws/build/evs_robot_controller/build install --record /home/robousr/ROS2Dev/ExaFin_ws/build/evs_robot_controller/install.log --single-version-externally-managed install_data
+[1.207s] running egg_info
+[1.208s] creating ../../build/evs_robot_controller/evs_robot_controller.egg-info
+[1.208s] writing ../../build/evs_robot_controller/evs_robot_controller.egg-info/PKG-INFO
+[1.208s] writing dependency_links to ../../build/evs_robot_controller/evs_robot_controller.egg-info/dependency_links.txt
+[1.208s] writing entry points to ../../build/evs_robot_controller/evs_robot_controller.egg-info/entry_points.txt
+[1.209s] writing requirements to ../../build/evs_robot_controller/evs_robot_controller.egg-info/requires.txt
+[1.209s] writing top-level names to ../../build/evs_robot_controller/evs_robot_controller.egg-info/top_level.txt
+[1.209s] writing manifest file '../../build/evs_robot_controller/evs_robot_controller.egg-info/SOURCES.txt'
+[1.210s] reading manifest file '../../build/evs_robot_controller/evs_robot_controller.egg-info/SOURCES.txt'
+[1.211s] writing manifest file '../../build/evs_robot_controller/evs_robot_controller.egg-info/SOURCES.txt'
+[1.212s] running build
+[1.212s] running build_py
+[1.212s] creating /home/robousr/ROS2Dev/ExaFin_ws/build/evs_robot_controller/build
+[1.212s] creating /home/robousr/ROS2Dev/ExaFin_ws/build/evs_robot_controller/build/lib
+[1.213s] creating /home/robousr/ROS2Dev/ExaFin_ws/build/evs_robot_controller/build/lib/evs_robot_controller
+[1.213s] copying evs_robot_controller/__init__.py -> /home/robousr/ROS2Dev/ExaFin_ws/build/evs_robot_controller/build/lib/evs_robot_controller
+[1.213s] copying evs_robot_controller/square_trajectory.py -> /home/robousr/ROS2Dev/ExaFin_ws/build/evs_robot_controller/build/lib/evs_robot_controller
+[1.213s] running install
+[1.213s] running install_lib
+[1.215s] creating /home/robousr/ROS2Dev/ExaFin_ws/install/evs_robot_controller/lib/python3.10/site-packages/evs_robot_controller
+[1.215s] copying /home/robousr/ROS2Dev/ExaFin_ws/build/evs_robot_controller/build/lib/evs_robot_controller/__init__.py -> /home/robousr/ROS2Dev/ExaFin_ws/install/evs_robot_controller/lib/python3.10/site-packages/evs_robot_controller
+[1.215s] copying /home/robousr/ROS2Dev/ExaFin_ws/build/evs_robot_controller/build/lib/evs_robot_controller/square_trajectory.py -> /home/robousr/ROS2Dev/ExaFin_ws/install/evs_robot_controller/lib/python3.10/site-packages/evs_robot_controller
+[1.216s] byte-compiling /home/robousr/ROS2Dev/ExaFin_ws/install/evs_robot_controller/lib/python3.10/site-packages/evs_robot_controller/__init__.py to __init__.cpython-310.pyc
+[1.216s] byte-compiling /home/robousr/ROS2Dev/ExaFin_ws/install/evs_robot_controller/lib/python3.10/site-packages/evs_robot_controller/square_trajectory.py to square_trajectory.cpython-310.pyc
+[1.216s] running install_data
+[1.217s] creating /home/robousr/ROS2Dev/ExaFin_ws/install/evs_robot_controller/share/ament_index
+[1.217s] creating /home/robousr/ROS2Dev/ExaFin_ws/install/evs_robot_controller/share/ament_index/resource_index
+[1.217s] creating /home/robousr/ROS2Dev/ExaFin_ws/install/evs_robot_controller/share/ament_index/resource_index/packages
+[1.217s] copying resource/evs_robot_controller -> /home/robousr/ROS2Dev/ExaFin_ws/install/evs_robot_controller/share/ament_index/resource_index/packages
+[1.218s] copying package.xml -> /home/robousr/ROS2Dev/ExaFin_ws/install/evs_robot_controller/share/evs_robot_controller
+[1.219s] running install_egg_info
+[1.220s] Copying ../../build/evs_robot_controller/evs_robot_controller.egg-info to /home/robousr/ROS2Dev/ExaFin_ws/install/evs_robot_controller/lib/python3.10/site-packages/evs_robot_controller-0.0.0-py3.10.egg-info
+[1.221s] running install_scripts
+[1.246s] Installing square_trajectory script to /home/robousr/ROS2Dev/ExaFin_ws/install/evs_robot_controller/lib/evs_robot_controller
+[1.246s] writing list of installed files to '/home/robousr/ROS2Dev/ExaFin_ws/build/evs_robot_controller/install.log'
+[1.279s] Invoked command in '/home/robousr/ROS2Dev/ExaFin_ws/src/evs_robot_controller' returned '0': PYTHONPATH=/home/robousr/ROS2Dev/ExaFin_ws/build/evs_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/ROS2Dev/ExaFin_ws/install/evs_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/evs_robot_controller build --build-base /home/robousr/ROS2Dev/ExaFin_ws/build/evs_robot_controller/build install --record /home/robousr/ROS2Dev/ExaFin_ws/build/evs_robot_controller/install.log --single-version-externally-managed install_data

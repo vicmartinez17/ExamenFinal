@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/evs_robot_controller/evs_robot_controller.egg-info
+writing ../../build/evs_robot_controller/evs_robot_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/evs_robot_controller/evs_robot_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/evs_robot_controller/evs_robot_controller.egg-info/entry_points.txt
+writing requirements to ../../build/evs_robot_controller/evs_robot_controller.egg-info/requires.txt
+writing top-level names to ../../build/evs_robot_controller/evs_robot_controller.egg-info/top_level.txt
+writing manifest file '../../build/evs_robot_controller/evs_robot_controller.egg-info/SOURCES.txt'
+reading manifest file '../../build/evs_robot_controller/evs_robot_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/evs_robot_controller/evs_robot_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/robousr/ROS2Dev/ExaFin_ws/build/evs_robot_controller/build
+creating /home/robousr/ROS2Dev/ExaFin_ws/build/evs_robot_controller/build/lib
+creating /home/robousr/ROS2Dev/ExaFin_ws/build/evs_robot_controller/build/lib/evs_robot_controller
+copying evs_robot_controller/__init__.py -> /home/robousr/ROS2Dev/ExaFin_ws/build/evs_robot_controller/build/lib/evs_robot_controller
+copying evs_robot_controller/square_trajectory.py -> /home/robousr/ROS2Dev/ExaFin_ws/build/evs_robot_controller/build/lib/evs_robot_controller
+running install
+running install_lib
+creating /home/robousr/ROS2Dev/ExaFin_ws/install/evs_robot_controller/lib/python3.10/site-packages/evs_robot_controller
+copying /home/robousr/ROS2Dev/ExaFin_ws/build/evs_robot_controller/build/lib/evs_robot_controller/__init__.py -> /home/robousr/ROS2Dev/ExaFin_ws/install/evs_robot_controller/lib/python3.10/site-packages/evs_robot_controller
+copying /home/robousr/ROS2Dev/ExaFin_ws/build/evs_robot_controller/build/lib/evs_robot_controller/square_trajectory.py -> /home/robousr/ROS2Dev/ExaFin_ws/install/evs_robot_controller/lib/python3.10/site-packages/evs_robot_controller
+byte-compiling /home/robousr/ROS2Dev/ExaFin_ws/install/evs_robot_controller/lib/python3.10/site-packages/evs_robot_controller/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/robousr/ROS2Dev/ExaFin_ws/install/evs_robot_controller/lib/python3.10/site-packages/evs_robot_controller/square_trajectory.py to square_trajectory.cpython-310.pyc
+running install_data
+creating /home/robousr/ROS2Dev/ExaFin_ws/install/evs_robot_controller/share/ament_index
+creating /home/robousr/ROS2Dev/ExaFin_ws/install/evs_robot_controller/share/ament_index/resource_index
+creating /home/robousr/ROS2Dev/ExaFin_ws/install/evs_robot_controller/share/ament_index/resource_index/packages
+copying resource/evs_robot_controller -> /home/robousr/ROS2Dev/ExaFin_ws/install/evs_robot_controller/share/ament_index/resource_index/packages
+copying package.xml -> /home/robousr/ROS2Dev/ExaFin_ws/install/evs_robot_controller/share/evs_robot_controller
+running install_egg_info
+Copying ../../build/evs_robot_controller/evs_robot_controller.egg-info to /home/robousr/ROS2Dev/ExaFin_ws/install/evs_robot_controller/lib/python3.10/site-packages/evs_robot_controller-0.0.0-py3.10.egg-info
+running install_scripts
+Installing square_trajectory script to /home/robousr/ROS2Dev/ExaFin_ws/install/evs_robot_controller/lib/evs_robot_controller
+writing list of installed files to '/home/robousr/ROS2Dev/ExaFin_ws/build/evs_robot_controller/install.log'

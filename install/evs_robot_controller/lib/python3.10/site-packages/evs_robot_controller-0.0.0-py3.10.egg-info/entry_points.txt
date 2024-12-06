@@ -1,0 +1,3 @@
+[console_scripts]
+square_trajectory = evs_robot_controller.square_trajectory:main
+

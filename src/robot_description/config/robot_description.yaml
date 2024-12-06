@@ -1,0 +1,2 @@
+ros__parameters:
+  robot_description: "file:///home/robousr/ROS2Dev/ExaFin_ws/src/robot_description/urdf/RobotIndustrial.urdf"

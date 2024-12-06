@@ -1,0 +1,134 @@
+<robot name="evs_robot">
+  <!-- Base del robot -->
+  <link name="base_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.3" length="0.2"/>
+      </geometry>
+      <material name="black">
+        <color rgba="0 0 0 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- Primer eslabón (hombro) -->
+  <joint name="joint1" type="revolute">
+    <parent link="base_link"/>
+    <child link="shoulder_link"/>
+    <origin xyz="0 0 0.2" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-1.5708" upper="1.5708" effort="10" velocity="1.0"/>
+  </joint>
+  <link name="shoulder_link">
+    <visual>
+      <origin xyz="0 0.1 0.4" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.1" length="1.4"/>
+      </geometry>
+      <material name="red">
+        <color rgba="1 0 0 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- Segundo eslabón (brazo inferior) -->
+  <joint name="joint2" type="revolute">
+    <parent link="shoulder_link"/>
+    <child link="arm_link"/>
+    <origin xyz="0 0.2 1" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="-1.5708" upper="1.5708" effort="10" velocity="1.0"/>
+  </joint>
+  <link name="arm_link">
+    <visual>
+      <origin xyz="0 0.1 1" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.1" length="3.0"/>
+      </geometry>
+      <material name="orange">
+        <color rgba="1 0.5 0 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- Tercer eslabón (brazo superior) -->
+  <joint name="joint3" type="revolute">
+    <parent link="arm_link"/>
+    <child link="forearm_link"/>
+    <origin xyz="0 -0.2 2" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="-1.5708" upper="1.5708" effort="10" velocity="1.0"/>
+  </joint>
+  <link name="forearm_link">
+    <visual>
+      <origin xyz="0 0.1 0.6" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.1" length="2.0"/>
+      </geometry>
+      <material name="blue">
+        <color rgba="0 0 1 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- Cuarto eslabón (muñeca rotativa) -->
+  <joint name="joint4" type="revolute">
+    <parent link="forearm_link"/>
+    <child link="wrist_link"/>
+    <origin xyz="0 0.1 1.7" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-1.5708" upper="1.5708" effort="10" velocity="1.0"/>
+  </joint>
+  <link name="wrist_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.2 0.2 0.3"/>
+      </geometry>
+      <material name="yellow">
+        <color rgba="1 1 0 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- Quinto eslabón (muñeca 2) -->
+  <joint name="joint5" type="revolute">
+    <parent link="wrist_link"/>
+    <child link="wrist2_link"/>
+    <origin xyz="0 0 0.1" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="-0.785" upper="0.785" effort="10" velocity="1.0"/>
+  </joint>
+  <link name="wrist2_link">
+    <visual>
+      <origin xyz="0 0 0.1" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.05" length="0.5"/>
+      </geometry>
+      <material name="grey">
+        <color rgba="0.5 0.5 0.5 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- Efector final -->
+  <joint name="joint6" type="revolute">
+    <parent link="wrist2_link"/>
+    <child link="end_effector"/>
+    <origin xyz="0 0 0.5" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-1.5708" upper="1.5708" effort="10" velocity="1.0"/>
+  </joint>
+  <link name="end_effector">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.1"/>
+      </geometry>
+      <material name="green">
+        <color rgba="0 1 0 1.0"/>
+      </material>
+    </visual>
+  </link>
+</robot>

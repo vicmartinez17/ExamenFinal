@@ -1,0 +1,19 @@
+Visualization Manager:
+  CLass: ""
+  Displays:
+    - Name: Grid
+    Class: rviz/Grid
+    Enabled: true
+    - Name: RobotModel
+    Class: rviz/RobotModel
+    Enabled: true
+    Robot Description: Robot_description
+    - Name: TF
+    Class: rviz/TF
+    Enabled: true
+  Enabled: true
+  Fixed Frame: world
+  Global Options:
+    Background Color: [0, 0, 0]
+    Fixed Frame: world
+    Frame Rate: 30

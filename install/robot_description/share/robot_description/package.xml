@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>robot_description</name>
+  <version>0.0.1</version>
+  <description>Descripción del robot EVS</description>
+  <maintainer email="robousr@todo.todo">robousr</maintainer>
+  <license>MIT</license>
+
+  <!-- Dependencias de compilación -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Dependencias de ejecución -->
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+
+  <!-- Dependencias opcionales para pruebas -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
